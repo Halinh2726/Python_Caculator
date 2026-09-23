@@ -138,7 +138,7 @@ class Calculator(QWidget):
         self._build_ui()
 
     def _build_ui(self):
-        self.setWindowTitle("May Tinh Ca Nhan - Ban Vibe Code")
+        self.setWindowTitle("Caculator")
         self.setFixedSize(340, 470)
 
         layout = QVBoxLayout()
