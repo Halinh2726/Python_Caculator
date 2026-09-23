@@ -1,22 +1,3 @@
-"""
-May Tinh Ca Nhan - BAN CODE TAY (Hand-coded version)
-=====================================================
-Xay dung bang PyQt5.
-
-Cach tiep can: mo hinh "state machine" co dien (giong may tinh Windows/Casio),
-KHONG dung eval()/exec(). Tat ca logic +, -, *, / duoc code thu cong bang if/elif.
-
-Tinh nang:
-- Day du 4 phep tinh: cong, tru, nhan, chia
-- Bat loi input:
-    + Khong cho nhap 2 dau '.' trong 1 so
-    + Gioi han so chu so toi da (tranh tran bo nho / hien thi qua dai)
-    + Bat ValueError khi chuoi hien tai khong the chuyen thanh so (float)
-- Bat loi tinh toan:
-    + Chia cho 0 (ZeroDivisionError)
-    + Ket qua qua lon (OverflowError tu dinh nghia)
-    + Ket qua khong xac dinh (NaN / Infinity)
-"""
 
 import sys
 from PyQt5.QtWidgets import (
